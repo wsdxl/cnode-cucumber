@@ -1,5 +1,8 @@
 @topic
 Feature: topic function test
+    发帖功能测试
+    负责人：abcduxiaolei
+    时间：2017-10-22
 
    Background:用户登录
    Given 用户登录,用户名输入"abcduxiaolei",密码输入"abc4862556",成功登录

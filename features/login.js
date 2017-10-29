@@ -3,7 +3,7 @@ let assert = require('assert');
 let { defineSupportCode } = require('cucumber');
 defineSupportCode(function ({ Given, When, Then }) {
     Given('导航到登录页面', function () {
-        this.driver.get('http://118.31.19.120:3000/');
+        this.driver.get('http://192.168.75.107:3000/');
         this.driver.findElement({ css: 'ul > li:nth-child(6) > a' }).click();
     });
     When('输入登录信息', function () {
