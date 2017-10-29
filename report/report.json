@@ -1,0 +1,201 @@
+[
+  {
+    "description": "    发帖功能测试\n    负责人：abcduxiaolei\n    时间：2017-10-22",
+    "keyword": "Feature",
+    "name": "topic function test",
+    "line": 2,
+    "id": "topic-function-test",
+    "tags": [
+      {
+        "name": "@topic",
+        "line": 1
+      }
+    ],
+    "uri": "features\\topic.feature",
+    "elements": [
+      {
+        "description": "    用户登录成功后才能发帖",
+        "id": "topic-function-test;发帖功能",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "发帖功能",
+        "tags": [
+          {
+            "name": "@topic",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\supports\\hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1409
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "用户登录,用户名输入\"abcduxiaolei\",密码输入\"abc4862556\",成功登录",
+            "match": {
+              "location": "features\\topic.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6318
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "导航到发帖界面",
+            "match": {
+              "location": "features\\topic.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 411
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "发布帖子，版块\"分享\",标题输入\"大家晚上好，坚持学习\",内容为\"1234522222222222222\"",
+            "match": {
+              "location": "features\\topic.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "点击提交后，发布成功",
+            "match": {
+              "location": "features\\topic.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 424
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\supports\\hooks.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61
+            }
+          }
+        ]
+      },
+      {
+        "description": "    用户登录成功后才能回帖",
+        "id": "topic-function-test;回帖功能",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "回帖功能",
+        "tags": [
+          {
+            "name": "@topic",
+            "line": 1
+          },
+          {
+            "name": "@topic2",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\supports\\hooks.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1404
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "用户登录,用户名输入\"abcduxiaolei\",密码输入\"abc4862556\",成功登录",
+            "match": {
+              "location": "features\\topic.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4550
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "点击帖子导航到回帖页面",
+            "match": {
+              "location": "features\\topic.js:46"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "回复帖子,内容输入,\"你是最棒的，你是最棒的，你是最棒的！\"",
+            "match": {
+              "location": "features\\topic.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 648
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "点击回复按钮，回帖成功",
+            "match": {
+              "location": "features\\topic.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 434
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\supports\\hooks.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
