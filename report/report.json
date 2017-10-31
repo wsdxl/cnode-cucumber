@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1409
+              "duration": 1534
             }
           },
           {
@@ -48,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6318
+              "duration": 3551
             }
           },
           {
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 411
+              "duration": 511
             }
           },
           {
@@ -74,7 +74,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 375
+              "duration": 354
             }
           },
           {
@@ -87,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 424
+              "duration": 860
             }
           },
           {
@@ -98,7 +98,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 61
+              "duration": 44
             }
           }
         ]
@@ -129,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1404
+              "duration": 1063
             }
           },
           {
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4550
+              "duration": 23599
             }
           },
           {
@@ -154,7 +154,8 @@
               "location": "features\\topic.js:46"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1
             }
           },
           {
@@ -167,7 +168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 648
+              "duration": 773
             }
           },
           {
@@ -180,7 +181,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 434
+              "duration": 668
             }
           },
           {
@@ -191,7 +192,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 65
+              "duration": 63
             }
           }
         ]
